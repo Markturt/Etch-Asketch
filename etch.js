@@ -25,10 +25,10 @@ if(sides<=100){
             button.style.boxSizing="border-box";
             divColumn.style.margin="2px";
 
-            button.addEventListener("mouseover",(e)=>{
+            button.addEventListener("click",(e)=>{
                 button.style.backgroundColor=color.value;
             });
-            button.addEventListener("mouseout",(e)=>{
+            button.addEventListener("mouseover",(e)=>{
                 button.style.backgroundColor="lightgrey";
             });
             divColumn.appendChild(button);
