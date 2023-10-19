@@ -25,7 +25,7 @@ if(sides<=100){
             button.style.boxSizing="border-box";
             divColumn.style.margin="2px";
 
-            button.addEventListener("click",(e)=>{
+            button.addEventListener("mouseout",(e)=>{
                 button.style.backgroundColor=color.value;
             });
             button.addEventListener("mouseover",(e)=>{
